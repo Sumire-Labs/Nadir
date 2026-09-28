@@ -1,0 +1,2 @@
+execute if score @s gha.number matches 1..7999 run return run function gha:entity/block/copper_storage_cabinet/cache_check with entity @s data
+execute unless score @s gha.number matches 1.. run function gha:entity/block/copper_storage_cabinet/set_item

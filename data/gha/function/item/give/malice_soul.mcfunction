@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.malice_soul', 'color': '#c8ff00'}, 'item_model': 'gha:malice_soul', 'custom_data': {'g': 'malice_soul'}}}}

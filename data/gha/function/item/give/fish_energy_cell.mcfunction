@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.fish_energy_cell', 'color': 'white'}, 'lore': ['', {'translate': 'tooltip.gha.member_item', 'color': '#ff38ac', 'italic': False}], 'item_model': 'gha:fish_energy_cell', 'custom_data': {'g': 'fish_energy_cell'}}}}

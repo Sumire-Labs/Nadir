@@ -1,0 +1,3 @@
+data modify entity @n[distance=..1,nbt={Item: {id: "minecraft:dropper", count: 1}, Age: 0s},type=item] Item set value {id: "glow_item_frame", count: 1, components: {custom_data: {g: "workbench"}, item_name: {translate:"item.gha.workbench", color:"white"}, item_model: "gha:workbench", entity_data:{id:"glow_item_frame", data:{g:"place/workbench"}, Tags:[gha.entity], Fixed:true, Invisible:True, Silent:True}}}
+execute positioned ~ ~0.7 ~ run function gha:entity/block/workbench/kill_entity
+kill

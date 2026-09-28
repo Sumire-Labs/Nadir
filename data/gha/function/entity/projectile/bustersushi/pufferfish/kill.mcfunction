@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {potion_contents:{"custom_effects":[{id:"poison",duration:150}],custom_color:9344827}, Duration:10, RadiusPerTick:0, Radius:2, custom_particle:{type:"effect",color:9344827}}
+kill

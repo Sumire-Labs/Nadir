@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/x_shot_bow/damage with entity @s data

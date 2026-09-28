@@ -1,0 +1,1 @@
+execute if entity @p[distance=..20] run function gha:entity/block/emerald_storage_cabinet/near_player

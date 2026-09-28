@@ -1,0 +1,1 @@
+$title @s actionbar [{font:"gha:health", translate:"bar.gha.$(c)", color:"white"}, ":", {interpret:true, nbt:"temp.bar.o", storage:"gha:temp"}, "@"]

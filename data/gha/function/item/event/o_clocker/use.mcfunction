@@ -1,0 +1,7 @@
+advancement revoke @s only gha:use/o_clocker
+scoreboard players reset @s gha.cooldown
+
+playsound entity.player.attack.sweep player @a ~ ~ ~ 0.5 0.5 0
+playsound entity.blaze.shoot player @a ~ ~ ~ 0.35 2 0
+summon item_display ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"slash/o_clocker"}, brightness:{block:15, sky:15}, item: {id:"command_block", components:{item_model:"gha:particle/o_clocker_slash",custom_model_data:{floats:[0]}}}, interpolation_duration: 1, transformation: {left_rotation: [1.0, 0.0, 0.0, 1.0], right_rotation: [0.0, 0.0, 0.0, 1.0], scale: [7.0, 7.0, 0.5], translation: [-0.5, 0.0, 0.0]}}
+execute as @n[tag=gha.entity.init,distance=..5,type=item_display] run function gha:item/event/_generic/slash

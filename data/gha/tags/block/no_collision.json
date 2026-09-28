@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:all_hanging_signs",
+        "#wool_carpets",
+        "#gha:true_no_collision",
+        "#chains",
+        "minecraft:big_dripleaf",
+        "minecraft:comparator",
+        "minecraft:repeater",
+        "minecraft:ladder",
+        "minecraft:moving_piston",
+        "minecraft:moss_carpet",
+        "minecraft:snow",
+        "minecraft:pale_moss_carpet"
+    ]
+}

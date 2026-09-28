@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gha:blazing"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gha:blazing"
+      }
+    ]
+  }
+}

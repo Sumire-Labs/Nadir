@@ -1,0 +1,2 @@
+particle sweep_attack ^ ^ ^-0.75 0 0 0 0 0 force
+$execute positioned ~-0.75 ~-0.5 ~-0.75 as @e[type=#gha:living, dx=1.5, dz=1.5, nbt=!{UUID:$(UUID)}] positioned ~0.75 ~-0.7 ~0.75 positioned ^ ^ ^-2 run damage @s 5 gha:player_ignore_cooldown by @p[distance=..0.001]

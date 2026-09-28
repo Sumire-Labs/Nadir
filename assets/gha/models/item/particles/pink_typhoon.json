@@ -1,0 +1,6 @@
+{
+    "parent": "gha:item/particles/storm_rod",
+    "textures": {
+        "0": "gha:item/particles/pink_typhoon"
+    }
+}

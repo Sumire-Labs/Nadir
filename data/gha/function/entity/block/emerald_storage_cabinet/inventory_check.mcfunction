@@ -1,0 +1,1 @@
+$execute if data entity @s {data:{c:$(i)}} run function gha:entity/block/emerald_storage_cabinet/get_count

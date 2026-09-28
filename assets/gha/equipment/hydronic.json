@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gha:hydronic"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gha:hydronic"
+      }
+    ]
+  }
+}

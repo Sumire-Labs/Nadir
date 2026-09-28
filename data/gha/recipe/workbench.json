@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": ["crafting_table", "cobblestone"],
+    "result": {"id": "glow_item_frame", "count": 1, "components": {"custom_data": {"g": "workbench"}, "item_model": "gha:workbench", "item_name": {"translate": "item.gha.workbench", "color": "white"}, "entity_data": {"Silent": true, "Tags": ["gha.entity"], "Invisible": true, "Fixed": true, "id": "glow_item_frame", "data": {"g": "place/workbench"}}}}
+}

@@ -1,0 +1,1 @@
+execute if entity @p[distance=..20] unless block ~ ~ ~ obsidian run function gha:entity/block/mythril_block/break

@@ -1,0 +1,2 @@
+$execute at @p[nbt={UUID:$(u)}, distance=..5] positioned ^ ^ ^0.7 run tp @s ~ ~1.2 ~ ~ ~
+$execute at @s positioned ^ ^ ^1 positioned ~-1 ~-0.5 ~-1 as @e[type=#gha:living, dx=2, dz=2, nbt=!{UUID:$(u)}] positioned ~1 ~0.5 ~1 positioned ^ ^ ^-1 run function gha:entity/slash/frostburn_saber/check with entity @s

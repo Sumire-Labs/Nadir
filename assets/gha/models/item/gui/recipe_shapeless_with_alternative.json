@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "gha:item/gui/recipe",
+		"layer1": "gha:item/gui/shapeless_recipe_overlay",
+		"layer2": "gha:item/gui/alternative_recipe_overlay"
+	}
+}

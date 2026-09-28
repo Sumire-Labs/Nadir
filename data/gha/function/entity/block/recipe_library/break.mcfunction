@@ -1,0 +1,3 @@
+data modify entity @n[distance=..1,nbt={Item: {id: "minecraft:barrel", count: 1}, Age: 0s},type=item] Item set value {id: "glow_item_frame", count: 1, components: {custom_data: {g: "recipe_library"}, item_name: {translate:"item.gha.recipe_library", color:"white"}, item_model: "gha:recipe_library", entity_data:{id:"glow_item_frame", data:{g:"place/recipe_library"}, Tags:[gha.entity], Fixed:true, Invisible:True, Silent:True}}}
+kill @e[distance=..5,nbt={Item:{components:{"minecraft:custom_data":{r:1b}}}},type=item]
+kill

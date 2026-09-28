@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 4, 'components': {'item_name': {'translate': 'item.gha.heavy_plate', 'color': 'blue'}, 'item_model': 'gha:heavy_plate', 'custom_data': {'g': 'heavy_plate'}}}}

@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/brick_mattock/damage with entity @s data

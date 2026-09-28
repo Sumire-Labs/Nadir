@@ -1,0 +1,2 @@
+$execute positioned $(x) $(y) $(z) if entity @s[distance=..0.5] run return run function gha:entity/mob/algheti/summon_pillar/teleport with entity @s data
+$execute facing $(x) $(y) $(z) run tp @s ^ ^ ^0.5

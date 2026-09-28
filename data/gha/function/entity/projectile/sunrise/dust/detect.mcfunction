@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/sunrise/dust/damage with entity @s data

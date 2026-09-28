@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "gha:item/mobs/algheti",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-4, -4, -4],
+			"to": [20, 20, 20],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [2.5, 2.5, 4, 4],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

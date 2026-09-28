@@ -1,0 +1,1 @@
+$return run execute positioned ~-0.25 ~-0.25 ~-0.25 as @p[dx=0, nbt={UUID:$(u)}] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function gha:entity/projectile/vampire_knives/heal/heal

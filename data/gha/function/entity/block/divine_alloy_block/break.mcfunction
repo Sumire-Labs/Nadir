@@ -1,0 +1,2 @@
+data modify entity @n[distance=..1,nbt={Item: {id: "minecraft:obsidian", count: 1}, Age: 0s},type=item] Item set value {id: "glow_item_frame", count: 1, components: {custom_data: {g: "divine_alloy_block"}, item_name: {translate:"item.gha.divine_alloy_block", color:"#ff3546"}, item_model: "gha:divine_alloy_block", entity_data:{id:"glow_item_frame", data:{g:"place/divine_alloy_block"}, Tags:[gha.entity], Fixed:true, Invisible:True, Silent:True}}}
+kill

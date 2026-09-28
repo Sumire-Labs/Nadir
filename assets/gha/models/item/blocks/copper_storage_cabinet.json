@@ -1,0 +1,6 @@
+{
+	"parent": "gha:item/blocks/gold_storage_crate",
+	"textures": {
+		"1": "gha:block/copper_storage_cabinet"
+	}
+}

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.guardian_core', 'color': '#ff3546'}, 'item_model': 'gha:guardian_core', 'custom_data': {'g': 'guardian_core'}}}}

@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/vampire_knives/damage with entity @s data

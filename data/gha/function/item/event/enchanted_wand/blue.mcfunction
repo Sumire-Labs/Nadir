@@ -1,0 +1,2 @@
+summon item_display ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], billboard:"center", data:{g:"projectile/enchanted_wand/blue"}, brightness:{block:15, sky:15}, item: {id:"command_block", components:{item_model:"air"}}, interpolation_duration: 1, transformation: {left_rotation: [0.0, 0.0, 0.0, 1.0], right_rotation: [0.0, 0.0, 0.0, 1.0], scale: [0.0, 0.0, 0.0], translation: [0.0, 0.0, 0.0]}}
+execute as @n[type=item_display, tag=gha.entity.init, distance=..5] run function gha:item/event/_generic/projectile

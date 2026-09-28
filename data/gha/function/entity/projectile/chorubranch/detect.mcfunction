@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/chorubranch/damage with entity @s data

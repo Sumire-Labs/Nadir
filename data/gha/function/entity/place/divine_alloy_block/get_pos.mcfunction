@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function gha:entity/place/divine_alloy_block/set_block

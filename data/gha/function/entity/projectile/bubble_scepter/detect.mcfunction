@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/bubble_scepter/damage with entity @s data

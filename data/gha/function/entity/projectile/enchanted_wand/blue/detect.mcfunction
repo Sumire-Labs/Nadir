@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/enchanted_wand/blue/damage with entity @s data

@@ -1,0 +1,29 @@
+execute unless items block ~ ~ ~ container.26 command_block[custom_data~{r:1b}] run return run function gha:recipe/_page/2
+execute unless items block ~ ~ ~ container.25 command_block[custom_data~{r:1b}] run return run function gha:recipe/_page/3
+tag @s add gha.viewing_recipe
+execute unless items block ~ ~ ~ container.0 *[custom_data~{r:1b}] run return run function gha:recipe/r0/view
+execute unless items block ~ ~ ~ container.1 *[custom_data~{r:1b}] run return run function gha:recipe/r1/view
+execute unless items block ~ ~ ~ container.2 *[custom_data~{r:1b}] run return run function gha:recipe/r2/view
+execute unless items block ~ ~ ~ container.3 *[custom_data~{r:1b}] run return run function gha:recipe/r3/view
+execute unless items block ~ ~ ~ container.4 *[custom_data~{r:1b}] run return run function gha:recipe/r4/view
+execute unless items block ~ ~ ~ container.5 *[custom_data~{r:1b}] run return run function gha:recipe/r7/view
+execute unless items block ~ ~ ~ container.6 *[custom_data~{r:1b}] run return run function gha:recipe/r8/view
+execute unless items block ~ ~ ~ container.7 *[custom_data~{r:1b}] run return run function gha:recipe/r9/view
+execute unless items block ~ ~ ~ container.8 *[custom_data~{r:1b}] run return run function gha:recipe/r12/view
+execute unless items block ~ ~ ~ container.9 *[custom_data~{r:1b}] run return run function gha:recipe/r13/view
+execute unless items block ~ ~ ~ container.10 *[custom_data~{r:1b}] run return run function gha:recipe/r14/view
+execute unless items block ~ ~ ~ container.11 *[custom_data~{r:1b}] run return run function gha:recipe/r18/view
+execute unless items block ~ ~ ~ container.12 *[custom_data~{r:1b}] run return run function gha:recipe/r21/view
+execute unless items block ~ ~ ~ container.13 *[custom_data~{r:1b}] run return run function gha:recipe/r24/view
+execute unless items block ~ ~ ~ container.14 *[custom_data~{r:1b}] run return run function gha:recipe/r27/view
+execute unless items block ~ ~ ~ container.15 *[custom_data~{r:1b}] run return run function gha:recipe/r29/view
+execute unless items block ~ ~ ~ container.16 *[custom_data~{r:1b}] run return run function gha:recipe/r31/view
+execute unless items block ~ ~ ~ container.17 *[custom_data~{r:1b}] run return run function gha:recipe/r33/view
+execute unless items block ~ ~ ~ container.18 *[custom_data~{r:1b}] run return run function gha:recipe/r35/view
+execute unless items block ~ ~ ~ container.19 *[custom_data~{r:1b}] run return run function gha:recipe/r37/view
+execute unless items block ~ ~ ~ container.20 *[custom_data~{r:1b}] run return run function gha:recipe/r39/view
+execute unless items block ~ ~ ~ container.21 *[custom_data~{r:1b}] run return run function gha:recipe/r41/view
+execute unless items block ~ ~ ~ container.22 *[custom_data~{r:1b}] run return run function gha:recipe/r43/view
+execute unless items block ~ ~ ~ container.23 *[custom_data~{r:1b}] run return run function gha:recipe/r44/view
+execute unless items block ~ ~ ~ container.24 *[custom_data~{r:1b}] run return run function gha:recipe/r46/view
+tag @s remove gha.viewing_recipe

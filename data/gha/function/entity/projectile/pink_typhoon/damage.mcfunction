@@ -1,0 +1,1 @@
+$return run execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=#gha:living, dx=0, nbt=!{UUID:$(u)}] run damage @s 5 gha:player_ignore_cooldown by @p[distance=..1000, nbt={UUID:$(u)}]

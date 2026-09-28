@@ -1,0 +1,2 @@
+$execute at @p[nbt={UUID:$(u)}, distance=..5] positioned ^ ^ ^0.7 run tp @s ~ ~1.2 ~ ~ ~
+$execute at @s positioned ^ ^ ^1.5 positioned ~-1.5 ~-0.5 ~-1.5 as @e[type=#gha:living, dx=3, dz=3, nbt=!{UUID:$(u)}] positioned ~1.5 ~0.5 ~1.5 positioned ^ ^ ^-1.5 run function gha:entity/slash/o_clocker/check with entity @s

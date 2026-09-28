@@ -1,0 +1,1 @@
+kill @n[distance=..0.001,tag=gha.craft_interaction,type=interaction]

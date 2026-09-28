@@ -1,0 +1,1 @@
+execute store result score @s gha.number run random value 0..2

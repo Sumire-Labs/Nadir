@@ -1,0 +1,1 @@
+$return run function gha:entity/block/workbench/recipe/shape_check_2 with storage gha:recipe_shape shapeless[{r:$(r)}]

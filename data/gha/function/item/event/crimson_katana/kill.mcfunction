@@ -1,0 +1,1 @@
+$return run kill @n[type=item_display, tag=gha.crimson_katana, nbt={data:{u:$(UUID)}}]

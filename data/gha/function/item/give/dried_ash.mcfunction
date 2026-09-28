@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.dried_ash', 'color': 'white'}, 'item_model': 'gha:dried_ash', 'custom_data': {'g': 'dried_ash'}}}}

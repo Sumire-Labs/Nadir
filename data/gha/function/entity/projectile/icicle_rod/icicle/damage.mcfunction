@@ -1,0 +1,1 @@
+$return run execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[type=#gha:living, dx=0, nbt=!{UUID:$(u)}] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run damage @s 2 gha:player_no_knockback by @p[distance=..1000, nbt={UUID:$(u)}]

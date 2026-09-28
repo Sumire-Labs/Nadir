@@ -1,0 +1,2 @@
+$execute facing entity @p[nbt={UUID:$(u)}] eyes run tp ^ ^ ^$(r)
+$execute if score @s gha.entity.tick matches 2.. at @s if entity @p[dx=0, nbt={UUID:$(u)}] at @s run function gha:entity/projectile/flame_chakram/kill

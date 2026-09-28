@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.infernal_powder', 'color': '#ff9d4d'}, 'item_model': 'gha:infernal_powder', 'custom_data': {'g': 'infernal_powder'}}}}

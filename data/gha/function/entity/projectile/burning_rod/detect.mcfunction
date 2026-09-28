@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/burning_rod/damage with entity @s data

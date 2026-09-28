@@ -1,0 +1,1 @@
+$execute if data storage gha:player {player:[{u:$(UUID)}]} unless data storage gha:player {player:[{u:$(UUID), s:$(SelectedItem)}]} run function gha:player/selected_item/check_mainhand with storage gha:player player[{u:$(UUID)}]

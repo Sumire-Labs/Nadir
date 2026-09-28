@@ -1,0 +1,1 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=#gha:living, dx=0, nbt=!{UUID:$(u)}] positioned ~0.5 ~0.5 ~0.5 run function gha:entity/projectile/storm_rod/check with entity @s

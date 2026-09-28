@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "x_shot_bow"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 20}}}}}}, "rewards": {"function": "gha:item/event/x_shot_bow/use"}}

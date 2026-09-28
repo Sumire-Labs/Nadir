@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "tool_damage": {
+      "trigger": "item_durability_changed"
+    }
+  },
+  "rewards": {
+    "function": "gha:player/selected_item/damage_detected"
+  }
+}

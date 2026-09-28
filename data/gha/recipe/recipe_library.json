@@ -1,0 +1,5 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": ["crafting_table", "cobblestone", "book"],
+    "result": {"id": "glow_item_frame", "count": 1, "components": {"custom_data": {"g": "recipe_library"}, "item_model": "gha:recipe_library", "item_name": {"translate": "item.gha.recipe_library", "color": "white"}, "entity_data": {"Silent": true, "Tags": ["gha.entity"], "Invisible": true, "Fixed": true, "id": "glow_item_frame", "data": {"g": "place/recipe_library"}}}}
+}

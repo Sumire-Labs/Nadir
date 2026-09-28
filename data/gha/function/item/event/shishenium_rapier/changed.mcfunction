@@ -1,0 +1,1 @@
+scoreboard players reset @s gha.weapon.shishenium_rapier

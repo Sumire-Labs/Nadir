@@ -1,0 +1,1 @@
+$execute unless data entity @s {SelectedItem:$(s)} run function gha:item/changed with storage gha:player player[{u:$(u)}].s.components."minecraft:custom_data"

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.living_energy_cell', 'color': '#c8ff00'}, 'lore': ['', {'translate': 'tooltip.gha.member_item', 'color': '#ff38ac', 'italic': False}], 'item_model': 'gha:living_energy_cell', 'custom_data': {'g': 'living_energy_cell'}}}}

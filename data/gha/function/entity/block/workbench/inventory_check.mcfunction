@@ -1,0 +1,1 @@
+$execute unless data entity @s {data:{c:$(Items)}} run function gha:entity/block/workbench/recipe/get_inventory

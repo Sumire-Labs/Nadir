@@ -1,0 +1,1 @@
+return run function gha:entity/block/workbench/recipe/shapeless/recipe_ingredient_2 with storage gha:temp temp.craft

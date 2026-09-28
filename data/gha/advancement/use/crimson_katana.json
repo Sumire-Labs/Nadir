@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "repeating_command_block", "predicates": {"custom_data": {"g": "crimson_katana"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 10}}}}}}, "rewards": {"function": "gha:item/event/crimson_katana/use"}}

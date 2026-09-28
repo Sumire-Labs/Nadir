@@ -1,0 +1,1 @@
+execute if entity @p[distance=..20] run function gha:entity/block/recipe_library/near_player

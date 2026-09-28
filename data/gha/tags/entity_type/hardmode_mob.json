@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#gha:overworld_skeletons",
+        "creeper",
+        "#gha:overworld_zombies",
+        "bat",
+        "enderman",
+        "#gha:spiders"
+    ]
+}

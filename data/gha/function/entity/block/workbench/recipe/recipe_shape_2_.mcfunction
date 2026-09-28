@@ -1,0 +1,1 @@
+return run function gha:entity/block/workbench/recipe/recipe_shape_2 with storage gha:temp temp.craft

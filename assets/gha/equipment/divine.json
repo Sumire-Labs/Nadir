@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gha:divine"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gha:divine"
+      }
+    ]
+  }
+}

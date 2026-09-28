@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gha:ghost"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gha:ghost"
+      }
+    ]
+  }
+}

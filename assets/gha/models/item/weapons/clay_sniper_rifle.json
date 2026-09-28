@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "gha:item/weapons/clay_sniper_rifle"
+    }
+}

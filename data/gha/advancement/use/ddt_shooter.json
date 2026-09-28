@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "ddt_shooter"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 4}}}}}}, "rewards": {"function": "gha:item/event/ddt_shooter/use"}}

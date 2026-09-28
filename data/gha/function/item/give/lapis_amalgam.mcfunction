@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.lapis_amalgam', 'color': 'blue'}, 'item_model': 'gha:lapis_amalgam', 'custom_data': {'g': 'lapis_amalgam'}}}}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "tool_damage": {
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "haste": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gha:player/haste_attack_speed_remove"
+  }
+}

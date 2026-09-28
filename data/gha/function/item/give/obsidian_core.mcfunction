@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.obsidian_core', 'color': '#b458ff'}, 'item_model': 'gha:obsidian_core', 'custom_data': {'g': 'obsidian_core'}}}}

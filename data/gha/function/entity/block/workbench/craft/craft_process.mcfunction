@@ -1,0 +1,1 @@
+$function gha:recipe/$(r)/craft

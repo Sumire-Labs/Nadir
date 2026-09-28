@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/lasore_gun/quartz/damage with entity @s data

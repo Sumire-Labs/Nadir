@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/frigid_snow/icicle/damage with entity @s data

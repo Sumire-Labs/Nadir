@@ -1,0 +1,1 @@
+return run function gha:entity/block/workbench/recipe/shape_check with storage gha:temp temp.craft

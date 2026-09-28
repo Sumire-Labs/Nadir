@@ -1,0 +1,2 @@
+particle sweep_attack ^ ^ ^0.25 0 0 0 0 0 force
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=#gha:living, dx=0] positioned ~0.5 ~-0.7 ~0.5 positioned ^ ^ ^-1.5 run damage @s 4 gha:player_no_knockback by @p[distance=..0.001]

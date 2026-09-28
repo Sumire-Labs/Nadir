@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function gha:entity/place/gold_storage_crate/set_block

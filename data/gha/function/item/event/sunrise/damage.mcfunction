@@ -1,0 +1,1 @@
+damage @s 85 gha:player_no_knockback by @p[distance=..0.001]

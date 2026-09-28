@@ -1,0 +1,21 @@
+execute positioned ^ ^ ^0.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^1 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^1.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^2 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^2.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^3 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^3.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^4 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^4.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^5.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^6 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^6.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^7 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^7.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^8 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^8.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^9 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^9.5 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^10 unless block ~ ~ ~ #gha:no_collision positioned ^ ^ ^-0.5 run return run function gha:item/event/knock_of_shadow/stop
+execute positioned ^ ^ ^10 run function gha:item/event/knock_of_shadow/stop

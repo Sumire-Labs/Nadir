@@ -1,0 +1,2 @@
+particle electric_spark ~ ~1 ~ 0 0 0 2 20 force
+summon item_display ~ ~ ~ {Tags:["gha.entity"], billboard:"center", data:{g:"particle/terra_blade"}, brightness:{block:15, sky:15}, item: {id:"command_block", components:{item_model:"gha:particle/terra_blade_hit"}}, interpolation_duration: 1, transformation: {left_rotation: [0.0, 0.0, 0.0, 1.0], right_rotation: [0.0, 0.0, 0.0, 1.0], scale: [0.0, 0.0, 1.0], translation: [0.0, 1.0, 0.0]}}

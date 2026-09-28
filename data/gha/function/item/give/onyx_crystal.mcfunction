@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.onyx_crystal', 'color': 'light_purple'}, 'item_model': 'gha:onyx_crystal', 'custom_data': {'g': 'onyx_crystal'}}}}

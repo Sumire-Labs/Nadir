@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#gha:soul_fire_ingredient",
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    "LLL"
+  ],
+  "result": {
+    "id": "minecraft:soul_campfire"
+  }
+}

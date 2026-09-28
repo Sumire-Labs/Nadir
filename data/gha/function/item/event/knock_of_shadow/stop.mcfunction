@@ -1,0 +1,1 @@
+return run particle dust{color:[0.6, 0.0, 0.9], scale:1} ~ ~ ~ 0.3 0.3 0.3 0 3 force @s

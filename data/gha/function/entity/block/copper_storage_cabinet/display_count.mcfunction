@@ -1,0 +1,1 @@
+$item replace block ~ ~ ~ container.4 with command_block[custom_data={r:1b},item_model="gha:gui/storage_cabinet",item_name={text:"[$(a)/8000]",color:gray}]

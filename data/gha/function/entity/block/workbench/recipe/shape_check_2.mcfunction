@@ -1,0 +1,1 @@
+$return run execute if data storage gha:temp {temp:{craft:{i:$(i)}}}

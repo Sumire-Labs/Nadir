@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.fleze_rod', 'color': 'light_purple'}, 'item_model': 'gha:fleze_rod', 'custom_data': {'g': 'fleze_rod'}}}}

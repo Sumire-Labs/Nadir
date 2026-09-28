@@ -1,0 +1,2 @@
+$execute unless items entity @s weapon.mainhand * run return run function gha:item/changed with storage gha:player player[{u:$(UUID)}].s.components."minecraft:custom_data"
+function gha:player/selected_item/check_selected_item with entity @s

@@ -1,0 +1,1 @@
+damage @s 12 gha:player_ignore_cooldown by @p[distance=..0.001]

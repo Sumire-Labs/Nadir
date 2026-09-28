@@ -1,0 +1,1 @@
+execute if entity @p[distance=..20] run function gha:entity/block/gold_storage_crate/near_player

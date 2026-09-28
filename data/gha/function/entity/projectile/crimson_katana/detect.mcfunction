@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/crimson_katana/damage with entity @s data

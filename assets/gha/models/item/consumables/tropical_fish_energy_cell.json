@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "gha:item/consumables/tropical_fish_energy_cell"
+    }
+}

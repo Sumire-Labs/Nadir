@@ -1,0 +1,7 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "barrier"
+    ],
+    "result": "barrier"
+}

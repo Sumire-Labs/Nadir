@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function gha:entity/place/recipe_library/set_block

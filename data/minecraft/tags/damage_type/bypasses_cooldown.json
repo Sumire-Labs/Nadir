@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#gha:custom_effects",
+        "gha:abyss_water",
+        "gha:gemstone",
+        "gha:ender_dragon_deadly_attack",
+        "gha:player_ignore_cooldown",
+        "gha:player_no_knockback"
+    ]
+}

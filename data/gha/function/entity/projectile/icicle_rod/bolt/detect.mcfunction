@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/icicle_rod/bolt/damage with entity @s data

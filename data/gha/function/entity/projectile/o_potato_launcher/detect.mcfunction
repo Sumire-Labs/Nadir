@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/o_potato_launcher/damage with entity @s data

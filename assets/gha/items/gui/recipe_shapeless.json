@@ -1,0 +1,32 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "condition",
+                    "property": "carried",
+                    "on_false": {
+                        "type": "model",
+                        "transformation": {
+                            "left_rotation": [0.0, 0.0, 0.0, 1.0],
+                            "right_rotation": [0.0, 0.0, 0.0, 1.0],
+                            "translation": [-0.0625, -0.0625, 0.0],
+                            "scale": [10.125, 3.375, 1.0]
+                        },
+                        "model": "gha:item/gui/recipe_shapeless"
+                    },
+                    "on_true": {
+                        "type": "empty"
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "empty"
+        }
+    },
+    "oversized_in_gui": true
+}

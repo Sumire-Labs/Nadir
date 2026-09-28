@@ -1,0 +1,55 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"aj:algheti": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/algheti/bone.json",
+				"assets/aj/items/blueprint/algheti/cube.json",
+				"assets/aj/models/blueprint/algheti/bone.json",
+				"assets/aj/models/blueprint/algheti/cube.json"
+			]
+		},
+		"aj:algheti_pillar": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/algheti_pillar/bone.json",
+				"assets/aj/items/blueprint/algheti_pillar/core.json",
+				"assets/aj/items/blueprint/algheti_pillar/ring.json",
+				"assets/aj/models/blueprint/algheti_pillar/bone.json",
+				"assets/aj/models/blueprint/algheti_pillar/core.json",
+				"assets/aj/models/blueprint/algheti_pillar/ring.json"
+			]
+		},
+		"betelgeuse": {
+			"versionedFiles": [
+				"assets/animated_java/models/item/empty.json",
+				"assets/animated_java/textures/item/transparent.png",
+				"assets/animated_java/models/item/betelgeuse/default/head.json",
+				"assets/animated_java/models/item/betelgeuse/default/rod_mid.json",
+				"assets/animated_java/models/item/betelgeuse/default/rod_bottom.json",
+				"assets/animated_java/models/item/betelgeuse/default/rod_top.json"
+			]
+		},
+		"fleze": {
+			"versionedFiles": [
+				"assets/animated_java/models/item/empty.json",
+				"assets/animated_java/textures/item/transparent.png",
+				"assets/animated_java/models/item/fleze/default/head.json",
+				"assets/animated_java/models/item/fleze/default/rod_mid.json",
+				"assets/animated_java/models/item/fleze/default/rod_bottom.json",
+				"assets/animated_java/models/item/fleze/default/rod_top.json"
+			]
+		},
+		"neptune": {
+			"versionedFiles": [
+				"assets/animated_java/models/item/empty.json",
+				"assets/animated_java/textures/item/transparent.png",
+				"assets/animated_java/models/item/neptune/default/body_front.json",
+				"assets/animated_java/models/item/neptune/default/eye.json",
+				"assets/animated_java/models/item/neptune/default/body_middle.json",
+				"assets/animated_java/models/item/neptune/default/body_back.json"
+			]
+		}
+	}
+}

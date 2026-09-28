@@ -1,0 +1,1 @@
+$execute rotated $(r) 0 run function gha:entity/slash/crimson_katana/particle

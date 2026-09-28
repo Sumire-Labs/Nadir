@@ -1,0 +1,1 @@
+$execute facing entity @n[type=#gha:living_no_player, distance=..10] feet rotated ~ 0 run tp ^ ^ ^$(r)

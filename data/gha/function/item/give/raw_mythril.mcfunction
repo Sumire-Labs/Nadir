@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.raw_mythril', 'color': '#b458ff'}, 'item_model': 'gha:raw_mythril', 'custom_data': {'g': 'raw_mythril'}}}}

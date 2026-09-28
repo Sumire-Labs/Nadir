@@ -1,0 +1,1 @@
+$execute as @p[nbt={UUID:$(player)}] unless predicate gha:sneaking run data remove entity @n[distance=..0.001,tag=gha.craft_interaction,type=interaction] interaction

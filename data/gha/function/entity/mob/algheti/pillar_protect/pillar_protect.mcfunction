@@ -1,0 +1,2 @@
+execute if score @s gha.entity.tick.second matches 1000 run return run function gha:entity/mob/algheti/pillar_protect/time
+execute unless entity @n[distance=..100,tag=gha.boss.algheti.pillar,type=husk] run return run function gha:entity/mob/algheti/pillar_protect/end

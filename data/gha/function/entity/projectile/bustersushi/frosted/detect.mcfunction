@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/bustersushi/frosted/damage with entity @s data

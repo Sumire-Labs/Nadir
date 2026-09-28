@@ -1,0 +1,1 @@
+$execute unless data entity @n[distance=..0.001,tag=gha.entity,type=item_display] {data:{h:[$(UUID)]}} run function gha:entity/slash/volcano/damage with entity @n[distance=..0.001,tag=gha.entity,type=item_display] data

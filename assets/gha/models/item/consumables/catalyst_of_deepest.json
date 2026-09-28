@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "gha:item/consumables/catalyst_of_deepest"
+    }
+}

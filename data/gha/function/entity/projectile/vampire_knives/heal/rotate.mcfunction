@@ -1,0 +1,1 @@
+$execute facing entity @p[distance=..1000, nbt={UUID:$(u)}] eyes run tp @s ^ ^ ^ ~ ~

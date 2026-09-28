@@ -1,0 +1,2 @@
+execute store result score $gha:temp.recipe gha.temp if data block ~ ~ ~ Items[{components:{"minecraft:custom_data":{r:1b}}}]
+execute unless score $gha:temp.recipe gha.temp matches 27 run function gha:entity/block/recipe_library/recipe/get_inventory

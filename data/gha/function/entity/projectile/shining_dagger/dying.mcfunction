@@ -1,0 +1,1 @@
+execute if score @s gha.entity.tick matches 100.. run kill

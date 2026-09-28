@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gha:gemstone"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gha:gemstone"
+      }
+    ]
+  }
+}

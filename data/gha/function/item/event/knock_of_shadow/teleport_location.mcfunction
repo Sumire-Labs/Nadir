@@ -1,0 +1,21 @@
+execute positioned ^ ^ ^0.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^1 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^1.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^2 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^2.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^3 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^3.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^4 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^4.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^5.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^6 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^6.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^7 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^7.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^8 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^8.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^9 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^9.5 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^10 if function gha:item/event/knock_of_shadow/teleport_check run return fail
+execute positioned ^ ^ ^10 run function gha:item/event/knock_of_shadow/teleport_stop

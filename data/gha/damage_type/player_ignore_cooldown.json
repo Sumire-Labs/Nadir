@@ -1,0 +1,7 @@
+{
+    "death_message_type": "default",
+    "message_id": "player",
+    "exhaustion": 0.0,
+    "effects": "hurt",
+    "scaling": "never"
+}

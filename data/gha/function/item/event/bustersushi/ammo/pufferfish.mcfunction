@@ -1,0 +1,1 @@
+return run clear @s command_block[custom_data~{g:"pufferfish_energy_cell"}] 1

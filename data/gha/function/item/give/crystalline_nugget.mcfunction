@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.crystalline_nugget', 'color': 'light_purple'}, 'item_model': 'gha:crystalline_nugget', 'custom_data': {'g': 'crystalline_nugget'}}}}

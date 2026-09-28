@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "#gha:special_no_collision",
+        "bubble_column",
+        "water",
+        "lava",
+        "powder_snow",
+        "scaffolding",
+        "kelp",
+        "kelp_plant",
+        "seagrass",
+        "sweet_berry_bush",
+        "vine",
+        "weeping_vines",
+        "weeping_vines",
+        "twisting_vines",
+        "twisting_vines_plant"
+    ]
+}

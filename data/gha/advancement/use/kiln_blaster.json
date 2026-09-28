@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "kiln_blaster"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 24}}}}}}, "rewards": {"function": "gha:item/event/kiln_blaster/use"}}

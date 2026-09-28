@@ -1,0 +1,11 @@
+execute rotated ~3 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~6 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~9 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~12 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~15 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~18 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~21 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~24 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~27 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~30 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force
+execute rotated ~33 0 run particle dust{color:[0.9, 0.2, 0.2], scale:1} ^ ^ ^5 0 0 0 0 0 force

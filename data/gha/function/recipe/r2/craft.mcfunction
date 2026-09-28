@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.vermilion', 'color': 'green'}, 'item_model': 'gha:vermilion', 'custom_data': {'g': 'vermilion'}}}}

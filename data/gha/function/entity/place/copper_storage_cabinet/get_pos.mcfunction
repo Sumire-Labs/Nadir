@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function gha:entity/place/copper_storage_cabinet/set_block

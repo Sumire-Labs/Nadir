@@ -1,0 +1,3 @@
+$data modify block ~ ~ ~ Items set from entity @s data.i[$(p)]
+$item replace block ~ ~ ~ container.26 with command_block[item_name={translate:"tooltip.gha.page.next", color:green, with:[{text:"[$(d)/16]", color:gray}]}, custom_data={r:1b}, item_model="gha:gui/arrow_right"]
+$item replace block ~ ~ ~ container.25 with command_block[item_name={translate:"tooltip.gha.page.previous", color:green, with:[{text:"[$(d)/16]", color:gray}]}, custom_data={r:1b}, item_model="gha:gui/arrow_left"]

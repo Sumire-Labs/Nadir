@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/pink_typhoon/damage with entity @s data

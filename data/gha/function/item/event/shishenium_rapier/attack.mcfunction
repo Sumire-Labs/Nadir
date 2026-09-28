@@ -1,0 +1,1 @@
+return run execute positioned ^ ^ ^1.25 positioned ~-0.75 ~-0.75 ~-0.75 as @e[type=#gha:living, dx=1.5, dz=1.5] positioned ~0.75 ~-0.45 ~0.75 positioned ^ ^ ^-1.25 unless entity @s[distance=0] run damage @s 8.3 gha:player_ignore_cooldown by @p[distance=..0.001]

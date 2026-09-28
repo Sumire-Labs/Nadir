@@ -1,0 +1,1 @@
+$execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[type=#gha:living, dx=0, nbt=!{UUID:$(u)}] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.75 ~0.75 ~0.75 run function gha:entity/projectile/lasore_gun/iron/check with entity @s

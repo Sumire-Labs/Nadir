@@ -1,0 +1,1 @@
+$return run execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @n[type=#gha:living, dx=0, nbt=!{UUID:$(u)}]

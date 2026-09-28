@@ -1,0 +1,6 @@
+{
+	"parent": "gha:item/blocks/workbench",
+	"textures": {
+		"1": "gha:block/recipe_library"
+	}
+}

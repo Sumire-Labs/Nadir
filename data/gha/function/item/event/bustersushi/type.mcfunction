@@ -1,0 +1,5 @@
+execute if score @s gha.weapon.bustersushi.type matches 1 run return run summon marker ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"projectile/bustersushi/fish"}}
+execute if score @s gha.weapon.bustersushi.type matches 2 run return run summon marker ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"projectile/bustersushi/pufferfish"}}
+execute if score @s gha.weapon.bustersushi.type matches 3 run return run summon marker ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"projectile/bustersushi/tropical_fish"}}
+execute if score @s gha.weapon.bustersushi.type matches 4 run return run summon marker ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"projectile/bustersushi/frosted"}}
+execute if score @s gha.weapon.bustersushi.type matches 5 run return run summon marker ~ ~ ~ {Tags:["gha.entity", "gha.entity.init"], data:{g:"projectile/bustersushi/living"}}

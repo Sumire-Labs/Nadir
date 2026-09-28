@@ -1,0 +1,36 @@
+{
+    "description": {
+        "translate": "enchantment.gha.magic_hand"
+    },
+    "supported_items": "#gha:enchantable/magic_hand",
+    "weight": 3,
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "attributes": [
+            {
+                "attribute": "block_interaction_range",
+                "amount": 1.0,
+                "operation": "add_value",
+                "id": "gha:enchantment.magic_hand"
+            },
+            {
+                "attribute": "entity_interaction_range",
+                "amount": 1.0,
+                "operation": "add_value",
+                "id": "gha:enchantment.magic_hand.second"
+            }
+        ]
+    }
+}

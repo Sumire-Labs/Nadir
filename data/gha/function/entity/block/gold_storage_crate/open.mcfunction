@@ -1,0 +1,2 @@
+execute unless items block ~ ~ ~ container.26 command_block[custom_data~{r:1b}] run return run function gha:entity/block/gold_storage_crate/next
+execute unless items block ~ ~ ~ container.25 command_block[custom_data~{r:1b}] run return run function gha:entity/block/gold_storage_crate/previous

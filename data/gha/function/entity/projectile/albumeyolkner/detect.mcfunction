@@ -1,0 +1,1 @@
+return run function gha:entity/projectile/eggregator/damage with entity @s data

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "gha:item/weapons/ice_meteor_swarm"
+    }
+}

@@ -1,0 +1,2 @@
+execute unless items block ~ ~ ~ container.26 command_block[custom_data~{r:1b}] run return run function gha:entity/block/recipe_library/recipe/back with entity @s data
+execute unless items block ~ ~ ~ container.24 command_block[custom_data~{r:1b}] run function gha:entity/block/recipe_library/recipe/view_alternative with entity @s data

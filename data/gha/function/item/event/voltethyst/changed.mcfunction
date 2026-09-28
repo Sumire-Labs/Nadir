@@ -1,0 +1,1 @@
+scoreboard players set @s gha.weapon.voltethyst 0

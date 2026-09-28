@@ -1,0 +1,17 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "gha:font/workbench.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["0", "1"]
+        },
+        {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        }
+    ]
+}
