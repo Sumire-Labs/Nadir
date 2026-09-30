@@ -5,10 +5,7 @@ RECIPES
 import random
 import re
 import shutil
-import math
-import itertools
 from copy import copy
-from collections import Counter
 from pathlib import Path
 
 import item
@@ -20,9 +17,9 @@ RECIPE_GROUPS = {}
 VIEW_SLOT = [1, 2, 3, 10, 11, 12, 19, 20, 21, 18]
 DIR = Path(__file__).resolve()
 DATAPACK_PATH = DIR.parent.parent
-REG_PATH = DATAPACK_PATH / 'data/gha/function/registry/recipe.mcfunction'
-RECIPE_PATH = DATAPACK_PATH / 'data/gha/function/recipe'
+RECIPE_PATH = DATAPACK_PATH / 'data/gha.generated/function/recipe'
 RECIPE_PAGE_PATH = RECIPE_PATH / '_page'
+REG_PATH = RECIPE_PATH / 'registry.mcfunction'
 
 shutil.rmtree(RECIPE_PATH, ignore_errors=True)
 RECIPE_PATH.mkdir()
@@ -171,22 +168,6 @@ def add_shaped(result: tuple | str, ingredient: list[tuple | str | None], group:
         }
     })
     view_list[15] = item.sprite(15, result_id, result_count)
-    if group:
-        view_list[18]['components']['item_model'] = 'gha:gui/recipe_with_alternative'
-        view_list[24] = {
-            'Slot': 24,
-            'id': 'command_block',
-            'components': {
-                'item_model': 'air',
-                'custom_data': {
-                    'r': True
-                },
-                'item_name': {
-                    'translate': 'tooltip.gha.alternative_recipe',
-                    'color': 'yellow'
-                }
-            }
-        }
 
     check_text = ''
     m = 0
@@ -233,19 +214,13 @@ def add_shaped(result: tuple | str, ingredient: list[tuple | str | None], group:
 
     check_text += f'return run summon item_display ~ ~0.7 ~ {item_display}'
 
-    view_data = re.sub(r'(\'Slot\': \d+)', r'\1b', str({'c': view_list, 'r': id}))
-
-    RECIPES[id] = [result_id, result_count]
+    RECIPES[id] = [result_id, result_count, view_list, False]
 
     path = RECIPE_PATH.joinpath(id)
     path.mkdir()
 
     with open(path / 'craft.mcfunction', 'w', encoding='UTF-8') as f:
         f.write(f'summon item ~ ~ ~ {item_entity}')
-    
-    if visible:
-        with open(path / 'view.mcfunction', 'w', encoding='UTF-8') as f:
-            f.write(f'data modify entity @s data merge value {view_data}')
 
     with open(path / 'check.mcfunction', 'w', encoding='UTF-8') as f:
         f.write(check_text)
@@ -340,22 +315,6 @@ def add_shapeless(result: tuple | str, ingredient: list[tuple | str | None], gro
         }
     })
     view_list[15] = item.sprite(15, result_id, result_count)
-    if group:
-        view_list[18]['components']['item_model'] = 'gha:gui/recipe_shapeless_with_alternative'
-        view_list[24] = {
-            'Slot': 24,
-            'id': 'command_block',
-            'components': {
-                'item_model': 'air',
-                'custom_data': {
-                    'r': True
-                },
-                'item_name': {
-                    'translate': 'tooltip.gha.alternative_recipe',
-                    'color': 'yellow'
-                }
-            }
-        }
 
     check_text = ''
     duplicated_item_list = []
@@ -422,28 +381,28 @@ def add_shapeless(result: tuple | str, ingredient: list[tuple | str | None], gro
                 with open(path / f'check_{m}{n}{l}.mcfunction', 'w', encoding='UTF-8') as f:
                     f.write(f'execute store result score $gha:temp.craft gha.craft.{x} run data get storage gha:temp temp.craft.d[{l}].count\nscoreboard players remove $gha:temp.craft gha.craft.{x} {item_count}\nexecute if score $gha:temp.craft gha.craft.{x} matches ..-1 run return fail\ndata modify storage gha:temp temp.craft.c append from storage gha:temp temp.craft.d[{l}]\nreturn run data remove storage gha:temp temp.craft.d[{l}]')
 
-                dup_check2_text += f'execute if function gha:recipe/{id}/check_{m}{n}{l} run return 1\n'
+                dup_check2_text += f'execute if function gha.generated:recipe/{id}/check_{m}{n}{l} run return 1\n'
 
             with open(path / f'check_{m}{n}.mcfunction', 'w', encoding='UTF-8') as f:
                 f.write(dup_check2_text)
 
-            dup_check_text += f'execute unless function gha:recipe/{id}/check_{m}{n} run return fail\n'
+            dup_check_text += f'execute unless function gha.generated:recipe/{id}/check_{m}{n} run return fail\n'
             x += 1
             n += 1
 
         dup_check_text += 'return 1'
         with open(path / f'check_{m}.mcfunction', 'w', encoding='UTF-8') as f:
             f.write(dup_check_text)
-        check_text += f'execute unless function gha:recipe/{id}/check_{m} run return fail\n'
+        check_text += f'execute unless function gha.generated:recipe/{id}/check_{m} run return fail\n'
         m += 1
 
 
     result_raw = item.stack(result_id, result_count)
 
+    RECIPES[id] = [result_id, result_count, view_list, True]
+
     item_entity = {'Item': result_raw}
     item_display = item.display(result_id)
-    
-    view_data = re.sub(r'(\'Slot\': \d+)', r'\1b', str({'c': view_list, 'r': id}))
     
     ingredient_raw = {
         'r': id,
@@ -453,16 +412,10 @@ def add_shapeless(result: tuple | str, ingredient: list[tuple | str | None], gro
     with open(REG_PATH, 'a', encoding='UTF-8') as f:
         f.write(f'data modify storage gha:recipe_shape shapeless append value {ingredient_raw}\n')
 
-    RECIPES[id] = [result_id, result_count]
-
     check_text += f'return run summon item_display ~ ~0.7 ~ {item_display}'
 
     with open(path / 'craft.mcfunction', 'w', encoding='UTF-8') as f:
         f.write(f'summon item ~ ~ ~ {item_entity}')
-
-    if visible:
-        with open(path / 'view.mcfunction', 'w', encoding='UTF-8') as f:
-            f.write(f'data modify entity @s data merge value {view_data}')
 
     with open(path / 'check.mcfunction', 'w', encoding='UTF-8') as f:
         f.write(check_text)
@@ -475,10 +428,15 @@ def recipe_page():
 
     i = 0
     grouped_recipes = []
-    for id, result in RECIPES.items():
+    for id, value in RECIPES.items():
+        result_id, result_count, view_list, shapeless = value
 
         for group_id, id_list in RECIPE_GROUPS.items():
             if id in id_list:
+                id_len = len(id_list)
+                if id_len <= 1:
+                    break
+
                 if group_id not in grouped_recipes:
                     grouped_recipes.append(group_id)
 
@@ -486,21 +444,53 @@ def recipe_page():
                     
                 path = RECIPE_PATH.joinpath(id)
 
-                if index + 1 == len(id_list):
+                if index + 1 == id_len:
                     next_id = id_list[0]
                 else:
                     next_id = id_list[index + 1]
                 with open(path / 'alt.mcfunction', 'w', encoding='UTF-8') as f:
-                    f.write(f'function gha:recipe/{next_id}/view')
+                    f.write(f'function gha.generated:recipe/{next_id}/view')
+
+                if shapeless:
+                    view_list[18]['components']['item_model'] = 'gha:gui/recipe_shapeless_with_alternative'
+                else:
+                    view_list[18]['components']['item_model'] = 'gha:gui/recipe_with_alternative'
+                view_list[24] = {
+                    'Slot': 24,
+                    'id': 'command_block',
+                    'components': {
+                        'item_model': 'air',
+                        'custom_data': {
+                            'r': True
+                        },
+                        'item_name': {
+                            'translate': 'tooltip.gha.alternative_recipe',
+                            'with': [{
+                                'text': f'[{index+1}/{id_len}]',
+                                'color': 'gray'
+                            }],
+                            'color': 'yellow'
+                        }
+                    }
+                }
+
+                view_data = re.sub(r'(\'Slot\': \d+)', r'\1b', str({'c': view_list, 'r': id}))
+                with open(path / 'view.mcfunction', 'w', encoding='UTF-8') as f:
+                    f.write(f'data modify entity @s data merge value {view_data}')
                 break
 
         if id not in VISIBLE_RECIPES:
             continue
-        result_id, result_count = result
+
+        path = RECIPE_PATH.joinpath(id)
+
+        view_data = re.sub(r'(\'Slot\': \d+)', r'\1b', str({'c': view_list, 'r': id}))
+        with open(path / 'view.mcfunction', 'w', encoding='UTF-8') as f:
+            f.write(f'data modify entity @s data merge value {view_data}')
 
         page = i // 25 + 1
         slot = i % 25
-        
+
         if slot == 0:
             page_inventory.clear()
             for j in range(25):
@@ -550,10 +540,10 @@ def recipe_page():
             if page == 1:
                 prev_page = page_count
             
-            page_text = 'execute unless items block ~ ~ ~ container.26 command_block[custom_data~{r:1b}] run return run ' + f'function gha:recipe/_page/{next_page}\n' + 'execute unless items block ~ ~ ~ container.25 command_block[custom_data~{r:1b}] run return run ' + f'function gha:recipe/_page/{prev_page}\n' + 'tag @s add gha.viewing_recipe\n'
+            page_text = 'execute unless items block ~ ~ ~ container.26 command_block[custom_data~{r:1b}] run return run ' + f'function gha.generated:recipe/_page/{next_page}\n' + 'execute unless items block ~ ~ ~ container.25 command_block[custom_data~{r:1b}] run return run ' + f'function gha.generated:recipe/_page/{prev_page}\n' + 'tag @s add gha.viewing_recipe\n'
         
         page_inventory[slot] = item.sprite(slot, result_id, result_count)
-        page_text += f'execute unless items block ~ ~ ~ container.{slot} ' + '*[custom_data~{r:1b}] run return run ' + f'function gha:recipe/{id}/view\n'
+        page_text += f'execute unless items block ~ ~ ~ container.{slot} ' + '*[custom_data~{r:1b}] run return run ' + f'function gha.generated:recipe/{id}/view\n'
 
         if slot == 24 or i == len(VISIBLE_RECIPES) - 1:
             page_text += 'tag @s remove gha.viewing_recipe'

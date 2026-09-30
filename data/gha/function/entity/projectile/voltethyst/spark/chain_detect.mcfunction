@@ -1,0 +1,1 @@
+$execute as @e[type=#gha:hostile, distance=..15, nbt=!{UUID:$(u)}, sort=furthest] run function gha:entity/projectile/voltethyst/spark/chain_check with entity @s

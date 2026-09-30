@@ -1,0 +1,1 @@
+execute facing entity @s eyes run tp @n[type=marker, distance=..0.001, tag=gha.entity] ~ ~ ~ ~ ~
