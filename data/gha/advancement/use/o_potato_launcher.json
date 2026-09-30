@@ -1,1 +1,0 @@
-{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "o_potato_launcher"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 36}}}}}}, "rewards": {"function": "gha:item/event/o_potato_launcher/use"}}

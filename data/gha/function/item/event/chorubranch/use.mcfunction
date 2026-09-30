@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/chorubranch
+advancement revoke @s only gha.generated:use/chorubranch
 scoreboard players reset @s gha.cooldown
 
 playsound entity.blaze.shoot player @a ~ ~ ~ 1 0.75 0

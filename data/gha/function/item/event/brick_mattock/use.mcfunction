@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/brick_mattock
+advancement revoke @s only gha.generated:use/brick_mattock
 scoreboard players reset @s gha.cooldown
 
 execute if entity @s[gamemode=!creative] run item modify entity @s weapon.mainhand gha:consume

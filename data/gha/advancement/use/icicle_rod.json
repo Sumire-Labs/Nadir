@@ -1,1 +1,0 @@
-{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "icicle_rod"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 14}}}}}}, "rewards": {"function": "gha:item/event/icicle_rod/use"}}

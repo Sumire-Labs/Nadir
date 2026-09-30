@@ -1,5 +1,5 @@
 data remove storage gha:temp temp.craft.c
-$execute unless function gha:recipe/$(r)/check run return fail
+$execute unless function gha.generated:recipe/$(r)/check run return fail
 
 function gha:entity/block/workbench/recipe/shapeless/get_reduced_count
 

@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/x_shot_bow
+advancement revoke @s only gha.generated:use/x_shot_bow
 execute unless score @s gha.cooldown matches 20.. run return fail
 scoreboard players reset @s gha.cooldown
 

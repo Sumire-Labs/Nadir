@@ -1,4 +1,4 @@
-$execute unless function gha:recipe/$(r)/check run return fail
+$execute unless function gha.generated:recipe/$(r)/check run return fail
 
 execute positioned ~ ~0.7 ~ unless entity @n[distance=..0.001,tag=gha.craft_interaction,type=interaction] run summon interaction ~ ~ ~ {Tags: [gha.craft_interaction], width:0.5, height:0.5, response:true}
 data modify block ~ ~ ~ CustomName set value [{text:"1 ", font:"gha:gui", color:"green"},{translate:"item.gha.workbench",font:"default", color:"dark_gray"},{text:" 1", font:"gha:gui", color:"green"}]

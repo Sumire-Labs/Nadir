@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/pink_typhoon
+advancement revoke @s only gha.generated:use/pink_typhoon
 execute unless score @s gha.cooldown matches 6.. run return fail
 scoreboard players reset @s gha.cooldown
 

@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/sunrise
+advancement revoke @s only gha.generated:use/sunrise
 execute unless score @s gha.cooldown matches 3.. run return fail
 scoreboard players reset @s gha.cooldown
 

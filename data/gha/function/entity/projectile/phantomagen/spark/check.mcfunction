@@ -1,1 +1,0 @@
-$execute unless data entity @n[type=marker, distance=..0.001, tag=gha.entity] {data:{h:[$(UUID)]}} run function gha:entity/projectile/voltethyst/spark/damage with entity @n[type=marker, distance=..0.001, tag=gha.entity] data

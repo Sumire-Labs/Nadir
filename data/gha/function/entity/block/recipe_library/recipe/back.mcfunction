@@ -1,2 +1,2 @@
 tag @s remove gha.viewing_recipe
-$function gha:recipe/_page/$(p)
+$function gha.generated:recipe/_page/$(p)

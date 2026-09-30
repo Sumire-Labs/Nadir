@@ -1,1 +1,0 @@
-function gha:recipe/r82/view

@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.divine_alloy_nugget', 'color': '#ff3546'}, 'item_model': 'gha:divine_alloy_nugget', 'custom_data': {'g': 'divine_alloy_nugget'}}}}

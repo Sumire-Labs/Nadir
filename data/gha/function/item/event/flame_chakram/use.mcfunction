@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/flame_chakram
+advancement revoke @s only gha.generated:use/flame_chakram
 scoreboard players reset @s gha.cooldown
 
 playsound entity.snowball.throw player @a ~ ~ ~ 0.75 0.5 0

@@ -1,1 +1,0 @@
-function gha:recipe/r6/view

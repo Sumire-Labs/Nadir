@@ -273,7 +273,7 @@
   "tooltip.gha.page.back": "Back",
   "tooltip.gha.page.previous": "Previous Page %s",
   "tooltip.gha.page.next": "Next Page %s",
-  "tooltip.gha.alternative_recipe": "View Alternative Recipe",
+  "tooltip.gha.alternative_recipe": "View Alternative Recipe %s",
   "tooltip.gha.shapeless_recipe": "Shapeless Recipe",
   "tooltip.gha.mining_level.1": "1 採掘レベル（木）",
   "tooltip.gha.mining_level.2": "2 採掘レベル（石）",

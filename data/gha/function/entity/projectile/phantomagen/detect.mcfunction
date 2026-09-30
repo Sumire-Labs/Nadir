@@ -1,1 +1,0 @@
-return run function gha:entity/projectile/voltethyst/damage with entity @s data

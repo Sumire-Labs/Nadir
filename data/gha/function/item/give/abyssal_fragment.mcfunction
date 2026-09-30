@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.abyssal_fragment', 'color': '#b458ff'}, 'item_model': 'gha:abyssal_fragment', 'custom_data': {'g': 'abyssal_fragment'}}}}

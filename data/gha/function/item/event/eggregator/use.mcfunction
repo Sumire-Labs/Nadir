@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/eggregator
+advancement revoke @s only gha.generated:use/eggregator
 scoreboard players reset @s gha.cooldown
 
 execute if entity @s[gamemode=creative] run return run function gha:item/event/eggregator/shot

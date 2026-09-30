@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.nature_essence', 'color': '#c8ff00'}, 'item_model': 'gha:nature_essence', 'custom_data': {'g': 'nature_essence'}}}}

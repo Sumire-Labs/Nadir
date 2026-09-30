@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.benevolence_soul', 'color': '#c8ff00'}, 'item_model': 'gha:benevolence_soul', 'custom_data': {'g': 'benevolence_soul'}}}}

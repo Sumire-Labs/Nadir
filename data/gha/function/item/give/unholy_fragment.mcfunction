@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.unholy_fragment', 'color': '#ff3546'}, 'item_model': 'gha:unholy_fragment', 'custom_data': {'g': 'unholy_fragment'}}}}

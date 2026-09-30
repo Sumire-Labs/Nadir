@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/terra_blade
+advancement revoke @s only gha.generated:use/terra_blade
 execute unless score @s gha.cooldown matches 4.. run return fail
 scoreboard players reset @s gha.cooldown
 

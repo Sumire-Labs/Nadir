@@ -1,1 +1,1 @@
-$function gha:recipe/$(r)/craft
+$function gha.generated:recipe/$(r)/craft

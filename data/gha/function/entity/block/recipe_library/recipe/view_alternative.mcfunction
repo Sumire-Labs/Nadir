@@ -1,1 +1,1 @@
-$function gha:recipe/$(r)/alt
+$function gha.generated:recipe/$(r)/alt

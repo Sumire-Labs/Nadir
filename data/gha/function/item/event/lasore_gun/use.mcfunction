@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/lasore_gun
+advancement revoke @s only gha.generated:use/lasore_gun
 scoreboard players reset @s gha.cooldown
 
 execute unless items entity @s weapon.offhand #gha:lasore_gun/all_ammo run return run playsound block.dispenser.fail player @s ~ ~ ~ 1 1.2 0

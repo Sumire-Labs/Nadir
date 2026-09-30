@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/o_clocker
+advancement revoke @s only gha.generated:use/o_clocker
 scoreboard players reset @s gha.cooldown
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 0.5 0.5 0

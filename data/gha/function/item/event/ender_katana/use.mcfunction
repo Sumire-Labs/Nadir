@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/crimson_katana
+advancement revoke @s only gha.generated:use/crimson_katana
 scoreboard players reset @s gha.cooldown
 execute unless function gha:item/event/crimson_katana/detect unless score @s gha.weapon.crimson_katana matches 100.. run return fail
 

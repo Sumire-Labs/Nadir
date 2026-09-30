@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/frostburn_saber
+advancement revoke @s only gha.generated:use/frostburn_saber
 scoreboard players reset @s gha.cooldown
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 0.5 0.5 0

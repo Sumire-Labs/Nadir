@@ -5,7 +5,7 @@ data remove storage gha:temp temp
 
 # 登録
 function gha:registry/scoreboard
-function gha:registry/recipe
+function gha.generated:recipe/registry
 function gha:registry/bossbar
 
 # データ保存用シュルカーボックス

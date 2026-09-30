@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/enchanted_wand
+advancement revoke @s only gha.generated:use/enchanted_wand
 scoreboard players reset @s gha.cooldown
 
 playsound entity.arrow.shoot player @a ~ ~ ~ 0.35 1.5 0

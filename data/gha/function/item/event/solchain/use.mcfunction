@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/solchain
+advancement revoke @s only gha.generated:use/solchain
 execute if score @s gha.cooldown matches ..7 run return fail
 
 execute if score @s gha.cooldown matches 100.. run tag @s remove gha.solchain

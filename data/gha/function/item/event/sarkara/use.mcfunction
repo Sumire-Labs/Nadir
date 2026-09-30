@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/sarkara
+advancement revoke @s only gha.generated:use/sarkara
 execute unless score @s gha.cooldown matches 15.. run return fail
 scoreboard players reset @s gha.cooldown
 

@@ -1,1 +1,0 @@
-{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "sarkara"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 15}}}}}}, "rewards": {"function": "gha:item/event/sarkara/use"}}

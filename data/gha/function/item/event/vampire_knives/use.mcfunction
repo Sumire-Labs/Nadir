@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/vampire_knives
+advancement revoke @s only gha.generated:use/vampire_knives
 execute unless score @s gha.cooldown matches 18.. run return fail
 scoreboard players reset @s gha.cooldown
 

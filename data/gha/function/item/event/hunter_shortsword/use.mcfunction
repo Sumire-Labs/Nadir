@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/hunter_shortsword
+advancement revoke @s only gha.generated:use/hunter_shortsword
 scoreboard players reset @s gha.cooldown
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1 0

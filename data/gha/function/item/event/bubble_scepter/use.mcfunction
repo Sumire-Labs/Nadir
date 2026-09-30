@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/bubble_scepter
+advancement revoke @s only gha.generated:use/bubble_scepter
 scoreboard players reset @s gha.cooldown
 
 playsound ui.hud.bubble_pop player @a ~ ~ ~ 1 1.5 0

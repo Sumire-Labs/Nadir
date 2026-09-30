@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/shining_dagger
+advancement revoke @s only gha.generated:use/shining_dagger
 execute unless score @s gha.cooldown matches 4.. run return fail
 scoreboard players reset @s gha.cooldown
 

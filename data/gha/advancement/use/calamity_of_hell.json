@@ -1,1 +1,0 @@
-{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "calamity_of_hell"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 50}}}}}}, "rewards": {"function": "gha:item/event/calamity_of_hell/use"}}

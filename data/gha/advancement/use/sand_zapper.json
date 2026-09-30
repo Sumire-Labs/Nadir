@@ -1,1 +1,0 @@
-{"criteria": {"requirement": {"trigger": "using_item", "conditions": {"item": {"items": "chain_command_block", "predicates": {"custom_data": {"g": "sand_zapper"}}}, "player": {"entity": "this", "type": "entity_scores", "scores": {"gha.cooldown": {"min": 18}}}}}}, "rewards": {"function": "gha:item/event/sand_zapper/use"}}

@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/volcano
+advancement revoke @s only gha.generated:use/volcano
 execute unless score @s gha.cooldown matches 32.. run return fail
 scoreboard players reset @s gha.cooldown
 

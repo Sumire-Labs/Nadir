@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'command_block', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.frosted_energy_cell', 'color': 'darK_aqua'}, 'lore': ['', {'translate': 'tooltip.gha.member_item', 'color': '#ff38ac', 'italic': False}], 'item_model': 'gha:frosted_energy_cell', 'custom_data': {'g': 'frosted_energy_cell'}}}}

@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/bustersushi
+advancement revoke @s only gha.generated:use/bustersushi
 scoreboard players reset @s gha.cooldown
 
 execute if score @s gha.weapon.bustersushi matches 1.. run return run function gha:item/event/bustersushi/shot

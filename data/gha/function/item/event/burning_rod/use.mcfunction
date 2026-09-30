@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/burning_rod
+advancement revoke @s only gha.generated:use/burning_rod
 scoreboard players reset @s gha.cooldown
 
 playsound entity.arrow.shoot player @a ~ ~ ~ 0.35 1.5 0

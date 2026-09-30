@@ -278,7 +278,7 @@
   "tooltip.gha.page.previous": "前のページへ %s",
   "tooltip.gha.page.next": "次のページへ %s",
   "tooltip.gha.shapeless_recipe": "不定形レシピ",
-  "tooltip.gha.alternative_recipe": "代替レシピを見る",
+  "tooltip.gha.alternative_recipe": "代替レシピを見る %s",
   "tooltip.gha.mining_level.1": "1 採掘レベル（木）",
   "tooltip.gha.mining_level.2": "2 採掘レベル（石）",
   "tooltip.gha.mining_level.3": "3 採掘レベル（鉄）",

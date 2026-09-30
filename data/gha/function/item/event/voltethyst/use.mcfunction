@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/voltethyst
+advancement revoke @s only gha.generated:use/voltethyst
 execute unless score @s gha.cooldown matches 12.. run return fail
 execute if score @s gha.weapon.voltethyst matches 0 unless score @s gha.cooldown matches 18.. run return fail
 scoreboard players reset @s gha.cooldown

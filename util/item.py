@@ -9,8 +9,8 @@ deepmerge = always_merger.merge
 
 DIR = Path(__file__).resolve()
 DATAPACK_PATH = DIR.parent.parent
-GIVE_PATH = DATAPACK_PATH / 'data/gha/function/item/give'
-USE_ADVANCEMENT_PATH = DATAPACK_PATH / 'data/gha/advancement/use'
+GIVE_PATH = DATAPACK_PATH / 'data/gha.generated/function/item/give'
+USE_ADVANCEMENT_PATH = DATAPACK_PATH / 'data/gha.generated/advancement/use'
 shutil.rmtree(GIVE_PATH, ignore_errors=True)
 GIVE_PATH.mkdir()
 

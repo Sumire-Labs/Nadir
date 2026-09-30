@@ -1,4 +1,4 @@
-advancement revoke @s only gha:use/storm_rod
+advancement revoke @s only gha.generated:use/storm_rod
 execute unless score @s gha.cooldown matches 24.. run return fail
 scoreboard players reset @s gha.cooldown
 

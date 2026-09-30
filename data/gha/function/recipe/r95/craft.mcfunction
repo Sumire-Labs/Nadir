@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {'Item': {'id': 'glow_item_frame', 'count': 1, 'components': {'item_name': {'translate': 'item.gha.workbench', 'color': 'white'}, 'item_model': 'gha:workbench', 'entity_data': {'Silent': True, 'Tags': ['gha.entity'], 'Invisible': True, 'Fixed': True, 'id': 'glow_item_frame', 'data': {'g': 'place/workbench'}}, 'custom_data': {'g': 'workbench'}}}}

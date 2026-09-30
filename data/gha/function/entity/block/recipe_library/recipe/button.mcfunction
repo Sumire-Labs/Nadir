@@ -1,1 +1,1 @@
-$function gha:recipe/_page/$(p)_button
+$function gha.generated:recipe/_page/$(p)_button
