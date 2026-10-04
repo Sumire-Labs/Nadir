@@ -1,0 +1,6 @@
+{
+	"parent": "gha:item/blocks/energized_furnace",
+	"textures": {
+		"2": "gha:block/resonant_smelter"
+	}
+}

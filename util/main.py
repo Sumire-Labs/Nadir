@@ -132,12 +132,14 @@ add_usable_item_with_lore('phantasm', 77, 0.15, 'yellow')
 
 add_block_item('workbench')
 add_block_item('recipe_library')
+add_block_item('energized_furnace')
+add_block_item('resonant_smelter', 'pink')
+add_block_item('hellforge', 'orange')
+add_block_item('crucible_of_the_cosmos', 'red')
 add_block_item('gold_storage_crate')
 add_block_item('diamond_storage_crate', 'pink')
 add_block_item('copper_storage_cabinet')
 add_block_item('emerald_storage_cabinet', 'green')
-add_block_item('heavy_plate_block', 'blue')
-add_block_item('enriched_magma_block', 'green')
 add_block_item('crystalline_block', 'pink')
 add_block_item('mythril_block', 'purple')
 add_block_item('divine_alloy_block', 'red')
@@ -468,6 +470,30 @@ add_shapeless('workbench', [
 
 add_shapeless('recipe_library', [
     'crafting_table', 'cobblestone', 'book'
+])
+
+add_shaped('energized_furnace', [
+    'iron_ingot', 'iron_ingot', 'iron_ingot',
+    'redstone_block', 'furnace', 'redstone_block',
+    'iron_ingot', 'iron_ingot', 'iron_ingot'
+])
+
+add_shaped('resonant_smelter', [
+    'gold_ingot', 'onyx_crystal', 'gold_ingot',
+    'ender_pearl', 'energized_furnace', 'ender_pearl',
+    'gold_ingot', 'gold_ingot', 'gold_ingot'
+])
+
+add_shaped('hellforge', [
+    'vermilion', 'netherite_ingot', 'vermilion',
+    'infernal_powder', 'resonant_smelter', 'infernal_powder',
+    'vermilion', 'vermilion', 'vermilion'
+])
+
+add_shaped('crucible_of_the_cosmos', [
+    'divine_alloy_ingot', 'guardian_core', 'divine_alloy_ingot',
+    'malice_soul', 'hellforge', 'benevolence_soul',
+    'divine_alloy_ingot', 'divine_alloy_ingot', 'divine_alloy_ingot'
 ])
 
 add_shaped('gold_storage_crate', [

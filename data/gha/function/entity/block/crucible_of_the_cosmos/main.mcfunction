@@ -1,0 +1,2 @@
+execute if entity @p[distance=..20] unless block ~ ~ ~ furnace run return run function gha:entity/block/crucible_of_the_cosmos/break
+execute if items block ~ ~ ~ container.0 * unless items block ~ ~ ~ container.2 * run function gha:entity/block/crucible_of_the_cosmos/smelt

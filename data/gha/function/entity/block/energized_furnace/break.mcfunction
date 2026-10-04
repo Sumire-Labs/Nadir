@@ -1,0 +1,2 @@
+data modify entity @n[distance=..1,nbt={Item: {id: "minecraft:furnace", count: 1}, Age: 0s},type=item] Item set value {id: "glow_item_frame", count: 1, components: {custom_data: {g: "energized_furnace"}, item_name: {translate:"item.gha.energized_furnace", color:"white"}, item_model: "gha:energized_furnace", entity_data:{id:"glow_item_frame", data:{g:"place/energized_furnace"}, Tags:[gha.entity], Fixed:true, Invisible:True, Silent:True}}}
+kill

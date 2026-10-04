@@ -1,3 +1,3 @@
 summon item_display ~ ~ ~ {data: {g: "block/gold_storage_crate", i:[[], [], [], []]}, brightness: {block: 0, sky: 15}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0005f, 1.0005f, 1.0005f], translation: [0.0f, 0.0f, 0.0f]}, item: {id: command_block, components: {item_model: "gha:gold_storage_crate"}}, Tags: [gha.entity, gha.entity.init]}
-execute as @n[distance=..0.001, type=item_display, tag=gha.entity.init] run function gha:entity/place/gold_storage_crate/entity
+execute as @n[distance=..0.001,tag=gha.entity.init,type=item_display] run function gha:entity/place/gold_storage_crate/entity
 playsound block.stone.place block @a ~ ~ ~ 1 0.9 0
