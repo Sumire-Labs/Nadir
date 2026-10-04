@@ -172,7 +172,7 @@ add_shaped('crystalline_ingot', [
     'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget',
     'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget',
     'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget'
-], 'mythril_ingot')
+], 'crystalline_ingot')
 
 add_shapeless('9x crystalline_ingot', [
     'crystalline_block'
