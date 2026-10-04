@@ -82,7 +82,7 @@ add_usable_item_with_lore('ice_elibomvu', 11, 1.4, 'pink', lore=['', MEMBER_ITEM
 
 add_usable_item_with_lore('starfury', 12, 0.4, 'cyan')
 add_item_with_attribute('shellcrusher', 'cyan', [attribute('attack_damage', 11), attribute('attack_speed', -3), attribute('sneaking_speed', -0.25)], lore=['', {'translate': 'item.modifiers.mainhand', 'color': 'gray', 'italic': False}, {'translate': 'tooltip.gha.attack_damage', 'with': [12], 'color': 'dark_green', 'italic': False}, {'translate': 'tooltip.gha.attack_speed', 'with': [1], 'color': 'dark_green', 'italic': False}, {'translate': 'item.gha.shellcrusher.tooltip', 'color': 'dark_aqua', 'italic': False}])
-add_usable_item_with_lore('ender_katana', 17, 1.2, 'cyan')
+add_usable_item_with_attribute('ender_katana', 10, 'cyan', attributes=[attribute('attack_damage', 16), attribute('attack_speed', -3.1)], base='repeating_command_block', lore=['',tooltip('item.modifiers.mainhand', color='gray'), tooltip('tooltip.gha.attack_damage', 17), tooltip('tooltip.gha.attack_speed', 0.9), '', tooltip('tooltip.gha.when_used', color='gray'), tooltip('item.gha.crimson_katana.tooltip', color='dark_aqua'), tooltip('item.gha.ender_katana.tooltip.1', color='dark_aqua'), tooltip('item.gha.crimson_katana.tooltip.2', color='dark_aqua')])
 add_usable_item_with_lore('chorubranch', 7, 1, 'cyan')
 add_usable_item_with_lore('dragon_gauntlet', 19, 0.2, 'cyan')
 add_usable_item_with_lore('flashing_purple', 4, 0.8, 'cyan')
@@ -126,9 +126,8 @@ add_usable_item_with_lore('cryoflux', 72, 1.5, 'red', lore=['', MEMBER_ITEM])
 add_usable_item_with_lore('nero_claymore', 180, 2.0, 'red', lore=['', MEMBER_ITEM])
 
 add_usable_item_with_lore('sunrise', 85, 0.15, 'yellow')
-add_usable_item_with_lore('phantasm', 120, '0.1-0.4', 'yellow')
+add_usable_item_with_lore('phantasm', 120, '0.1-0.4', 'yellow', cooldown_tick=2)
 add_usable_item_with_lore('nuclear_fury', 108, 0.3, 'yellow')
-add_usable_item_with_lore('phantasm', 77, 0.15, 'yellow')
 
 add_block_item('workbench')
 add_block_item('recipe_library')
@@ -152,9 +151,9 @@ add_shapeless('4x heavy_plate', [
 ])
 
 add_shapeless('6x lapis_amalgam', [
-    '', 'lapis_lazuli', '',
+    'lapis_lazuli', 'lapis_lazuli', 'lapis_lazuli',
     'lapis_lazuli', 'phantom_membrane', 'lapis_lazuli',
-    '', 'lapis_lazuli', ''
+    'lapis_lazuli', 'lapis_lazuli', 'lapis_lazuli'
 ])
 
 add_shapeless('vermilion', [
@@ -162,7 +161,33 @@ add_shapeless('vermilion', [
 ])
 
 add_shapeless('crystalline_ingot', [
-    'diamond', 'aquamarine', 'onyx_crystal', '2x amethyst_shard'
+    'diamond', 'onyx_crystal', '2x amethyst_shard'
+], 'crystalline_ingot')
+
+add_shapeless('crystalline_ingot', [
+    'aquamarine', 'onyx_crystal', '2x amethyst_shard'
+], 'crystalline_ingot')
+
+add_shaped('crystalline_ingot', [
+    'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget',
+    'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget',
+    'crystalline_nugget', 'crystalline_nugget', 'crystalline_nugget'
+], 'mythril_ingot')
+
+add_shapeless('9x crystalline_ingot', [
+    'crystalline_block'
+], 'crystalline_ingot')
+
+add_shapeless('9x crystalline_nugget', [
+    '', '', '', 
+    '', 'crystalline_ingot', '',
+    '', '', ''
+])
+
+add_shaped('crystalline_block', [
+    'crystalline_ingot', 'crystalline_ingot', 'crystalline_ingot',
+    'crystalline_ingot', 'crystalline_ingot', 'crystalline_ingot',
+    'crystalline_ingot', 'crystalline_ingot', 'crystalline_ingot'
 ])
 
 add_shapeless('mythril_ingot', [
@@ -290,14 +315,14 @@ add_shaped('voltethyst', [
 
 add_shaped('deceiver', [
     '', '', 'prismarine_crystals',
-    'ender_pearl', 'prismarine_crystals', '',
-    '2x diamond', 'ender_pearl', ''
+    'diamond', 'prismarine_crystals', '',
+    'ender_pearl', 'diamond', ''
 ])
 
 add_shaped('lasore_gun', [
     'iron_ingot', 'iron_ingot', 'iron_ingot',
     'iron_block', 'iron_block', '4x resin_brick',
-    '2x diamond', '2x diamond', '8x redstone'
+    'diamond', 'diamond', '8x redstone'
 ])
 
 add_shaped('pink_typhoon', [
@@ -307,9 +332,9 @@ add_shaped('pink_typhoon', [
 ])
 
 add_shaped('eggregator', [
-    '', '4x gold_ingot', '4x gold_ingot',
+    '', '2x gold_ingot', '2x gold_ingot',
     '16x egg', '64x wheat', 'diamond',
-    '', '4x iron_ingot', '4x iron_ingot'
+    '', '2x iron_ingot', '2x iron_ingot'
 ])
 
 add_shaped('solchain', [
@@ -338,9 +363,9 @@ add_shaped('8x nether_brick_mattock', [
 ])
 
 add_shaped('shishenium_rapier', [
-    '', '', '2x diamond',
-    'amethyst_shard', '4x aquamarine', '',
-    'breeze_rod', 'amethyst_shard', ''
+    '', '', '2x aquamarine',
+    'diamond', '2x aquamarine', '',
+    'breeze_rod', 'diamond', ''
 ])
 
 
@@ -370,8 +395,8 @@ add_shaped('ender_katana', [
 
 add_shaped('knock_of_shadow', [
     '', 'amethyst_shard', 'purpur_block',
-    '16x ender_eye', 'purpur_block', 'amethyst_shard',
-    'echo_shard', '16x ender_pearl', ''
+    '4x ender_eye', 'purpur_block', 'amethyst_shard',
+    'echo_shard', '4x ender_pearl', ''
 ])
 
 
@@ -382,9 +407,9 @@ add_shaped('volcano', [
 ])
 
 add_shaped('flame_chakram', [
-    '8x blaze_rod', '4x vermilion', 'infernal_powder',
+    '4x blaze_rod', '4x vermilion', 'infernal_powder',
     '4x vermilion', '', '4x vermilion',
-    'infernal_powder', '4x vermilion', '8x blaze_rod'
+    'infernal_powder', '4x vermilion', '4x blaze_rod'
 ])
 
 

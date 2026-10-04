@@ -1,1 +1,1 @@
-$return run kill @n[type=item_display, tag=gha.crimson_katana, nbt={data:{u:$(UUID)}}]
+$return run kill @n[distance=0..,tag=gha.crimson_katana,nbt={data:{u:$(UUID)}},type=item_display]

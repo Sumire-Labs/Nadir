@@ -1,0 +1,1 @@
+execute if entity @p[distance=..20] unless block ~ ~ ~ amethyst_block run function gha:entity/block/crystalline_block/break

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "gha:item/weapons/traiangle"
+        "layer0": "gha:item/weapons/treiangle"
     }
 }

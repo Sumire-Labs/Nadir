@@ -1,1 +1,1 @@
-$data modify storage gha:temp temp.bar.o set value {font:"gha:cooldown", translate:"bar.gha.$(c)", color:"red"}
+$data modify storage gha:temp temp.bar.o set value {font:"gha:cooldown", translate:"bar.gha.$(c)", color:"dark_aqua"}

@@ -1,0 +1,3 @@
+summon item_display ~ ~ ~ {data: {g: "block/crystalline_block"}, brightness: {block: 0, sky: 15}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0005f, 1.0005f, 1.0005f], translation: [0.0f, 0.0f, 0.0f]}, item: {id: command_block, components: {item_model: "gha:crystalline_block"}}, Tags: [gha.entity, gha.entity.init]}
+execute as @n[distance=..0.001,tag=gha.entity.init,type=item_display] run function gha:entity/place/workbench/entity
+playsound block.amethyst_block.place block @a ~ ~ ~ 1 1 0

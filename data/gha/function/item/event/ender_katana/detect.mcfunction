@@ -1,1 +1,1 @@
-return run function gha:item/event/crimson_katana/kill with entity @s
+return run function gha:item/event/ender_katana/kill with entity @s

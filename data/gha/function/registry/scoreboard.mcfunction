@@ -60,6 +60,7 @@ scoreboard objectives add gha.weapon.bustersushi.type dummy
 scoreboard objectives add gha.weapon.voltethyst dummy
 scoreboard objectives add gha.weapon.deceiver dummy
 scoreboard objectives add gha.weapon.crimson_katana dummy
+scoreboard objectives add gha.weapon.ender_katana dummy
 scoreboard objectives add gha.weapon.shellcrusher dummy
 scoreboard objectives add gha.effect.frostburn dummy
 scoreboard objectives add gha.effect.hellfire dummy
